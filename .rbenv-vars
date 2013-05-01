@@ -1,0 +1,2 @@
+JRUBY_OPTS=--1.9
+JAVA_OPTS?=-server -Xmx512m -Xms256m -XX:MaxPermSize=128M -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true
