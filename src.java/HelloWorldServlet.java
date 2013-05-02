@@ -20,7 +20,7 @@ public class HelloWorldServlet extends HttpServlet {
     super.init(config);
     LOG.info("I'm ready!");
   }
-	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
+  public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
     LOG.info("I've been called!");
     ServletOutputStream out = res.getOutputStream();
     res.setContentType("text/html");

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cc.abstra.playground</groupId>
-    <artifactId>hello-servlet</artifactId>
+    <artifactId>helloservlet</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
@@ -26,5 +26,6 @@
     </dependencies>
     <build>
       <sourceDirectory>${project.basedir}/src.java</sourceDirectory>
+      <finalName>${project.artifactId}</finalName>
     </build>
 </project>
